@@ -25,3 +25,13 @@ fk_endereco int not null references enderecos(id_endereco)
 alter table propriedades add column
 Preco_noite numeric(5,2)
 
+
+create table reservas(
+id_reserva serial primary key,
+data_inicio date,
+data_fim date,
+valor_total numeric(9,3),
+fk_propriedades int references propriedades (id_propriedade),
+fk_hospedes int references hospedes (id_hospede)
+);
+

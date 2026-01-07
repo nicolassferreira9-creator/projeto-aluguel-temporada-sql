@@ -15,4 +15,7 @@ values('Lopes Trovão','324','Meio da Serra','Petrópolis','RJ'),
 ('CPX DA PENHA','157','Favelinha','Magé','ES'),
 ('Rua do Alemão','213','Catatu','Piabetá','MG');
 
-
+insert into reservas(data_inicio,data_fim,valor_total,fk_hospedes,fk_propriedades)
+values('12-10-2025','18-10-2025',1200,1,2),
+('05-01-2026','10-01-2026',3000,1,1),
+('07-02-2026','10-02-2026',1000,3,3);
