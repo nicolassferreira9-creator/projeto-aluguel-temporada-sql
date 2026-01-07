@@ -35,3 +35,6 @@ fk_propriedades int references propriedades (id_propriedade),
 fk_hospedes int references hospedes (id_hospede)
 );
 
+
+
+ 
