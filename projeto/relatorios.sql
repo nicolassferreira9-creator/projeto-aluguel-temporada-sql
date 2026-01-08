@@ -1,4 +1,4 @@
--- Active: 1767804029560@@127.0.0.1@5432@db_novo
+-- Active: 1767632051584@@127.0.0.1@5432@postgres
 select nome, nome_imovel,data_inicio from propriedades
 join reservas on fk_propriedades = id_propriedade
 join hospedes on id_hospede = fk_hospedes

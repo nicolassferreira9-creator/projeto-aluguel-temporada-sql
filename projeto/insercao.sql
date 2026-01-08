@@ -1,8 +1,9 @@
 insert into hospedes (nome,email,telefone)
 values('Nicolas','niczito@gmail.com','7540192'),
 ('Vanessa','vanessinha@gmail.com','124859335'),
-('Gilberto','gilberto@gmail.com','28393048');
-
+('Gilberto','gilberto@gmail.com','28393048'),
+('MAICON','gilberto@gmail.com','28393048'),
+('FELIPE','gilberto@gmail.com','28393048');
 
 insert into propriedades (id_propriedade,nome_imovel,capacidade_hospedes,endereco_propriedade,fk_endereco,preco_noite)
 values('1','Casa de praia','150','Estrada Velha da Estrela',1,'450.00'),
@@ -19,3 +20,4 @@ insert into reservas(data_inicio,data_fim,valor_total,fk_hospedes,fk_propriedade
 values('12-10-2025','18-10-2025',1200,1,2),
 ('05-01-2026','10-01-2026',3000,1,1),
 ('07-02-2026','10-02-2026',1000,3,3);
+

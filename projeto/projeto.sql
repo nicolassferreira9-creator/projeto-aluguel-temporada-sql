@@ -36,5 +36,14 @@ fk_hospedes int references hospedes (id_hospede)
 );
 
 
+create table Log_precos (
+id_log_precos serial primary key,
+propriedade_id int references propriedades (id_propriedade),
+preco_antigo numeric (5,2),
+preco_novo numeric (5,2),
+data_alteracao date   
+);
+
+
 
  
